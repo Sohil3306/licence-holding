@@ -1,0 +1,6 @@
+{
+  "name": "Licence Holding",
+  "description": "India's All-in-One Licence Information Platform. Discover, understand, prepare, and apply for licences with official verified sources and AI guidance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,832 @@
+# MASTER PROMPT: BUILD "LICENCE HOLDING" — INDIA'S ALL-IN-ONE LICENCE INFORMATION PLATFORM
+
+## 1. YOUR ROLE
+
+Act as a senior full-stack developer, UI/UX designer, AI engineer, product architect, and Indian government digital-services research specialist.
+
+Build a production-oriented, responsive, AI-powered web application called **Licence Holding**.
+
+The application should help individuals, entrepreneurs, shop owners, professionals, farmers, drivers, food businesses, and companies in India discover, understand, prepare for, and apply for different types of licences and registrations through one unified platform.
+
+The primary goal is to eliminate the confusion of searching multiple websites to understand licence requirements, eligibility, documents, application procedures, government fees, renewals, and official application portals.
+
+Do not create only a landing page, static prototype, or visual mockup. Build a functional application with working navigation, search, category pages, licence details, AI assistance, filters, application checklists, and reliable data architecture.
+
+When an external government service cannot be integrated directly, guide users to its official portal instead of pretending that an application has been submitted.
+
+## 2. BRAND IDENTITY
+
+Brand name: Licence Holding
+
+Tagline: "Every Licence. One Platform."
+
+Supporting message: "Discover. Understand. Prepare. Apply."
+
+Brand personality:
+- Trustworthy
+- Professional
+- Simple and accessible
+- Modern and technology-driven
+- Suitable for Indian citizens and businesses
+- Helpful to first-time applicants
+
+Create an original logo using a document, checkmark, or verified-record concept. Do not imitate any government emblem or imply that Licence Holding is an official government website.
+
+Use English as the default language, with architecture that supports future Indian languages.
+
+## 3. TARGET USERS
+
+Design for:
+- Individuals applying for driving licences and other personal permits.
+- Entrepreneurs starting a new business.
+- Restaurant owners, street-food vendors, cloud kitchens, and food manufacturers.
+- Shopkeepers, retailers, wholesalers, and traders.
+- Factory owners and manufacturing businesses.
+- Importers and exporters.
+- Contractors and professionals.
+- Farmers and agricultural businesses.
+- Startups, MSMEs, and established companies.
+- Anyone who needs to understand a licence or government registration.
+
+Users may have limited technical knowledge. Explain complex legal and administrative requirements in simple language.
+
+## 4. LICENCE CATEGORIES
+
+Create a comprehensive, searchable licence directory for India. Organize it into the following categories.
+
+### A. Transport and Driving
+Include:
+- Learner's Driving Licence
+- Permanent Driving Licence
+- Commercial or transport vehicle driving licence
+- Driving licence renewal
+- Duplicate driving licence
+- International Driving Permit
+- Vehicle registration and related transport services
+- Driving licence address or personal-detail updates
+
+### B. Food and Restaurant Business
+Include:
+- FSSAI registration for eligible food businesses
+- FSSAI State Licence
+- FSSAI Central Licence
+- Food business registration and modification services
+- Food licence renewal
+- Food manufacturing and processing permissions where applicable
+
+Explain that the appropriate FSSAI category depends on the applicable eligibility criteria, business activity, scale, and current regulations.
+
+### C. Business and Trade
+Include:
+- Shop and Establishment registration
+- Trade licence
+- GST registration
+- Udyam/MSME registration
+- Company incorporation
+- LLP incorporation
+- Partnership-related registrations
+- Professional Tax registration where applicable
+- Import Export Code (IEC)
+- Trademark registration
+- Business name and related registrations
+- Local municipal business permissions
+
+Clearly distinguish licences, registrations, certificates, and permits. Do not incorrectly describe every registration as a licence.
+
+### D. Construction, Factory and Industrial
+Include:
+- Factory licence
+- Building plan approval
+- Fire safety approvals
+- Pollution Control Board consents
+- Industrial establishment permissions
+- Contractor-related licences
+- Electrical contractor licences
+- Boiler-related approvals where applicable
+- Labour and establishment registrations
+
+### E. Health, Pharmacy and Medical
+Include:
+- Retail drug sale licence
+- Wholesale drug sale licence
+- Pharmacy-related regulatory permissions
+- Clinical establishment registration where applicable
+- Biomedical waste-related permissions where applicable
+- Other healthcare establishment approvals
+
+Explain that these may require qualified personnel, inspections, and specific state or central authority approvals.
+
+### F. Education and Professional Services
+Include:
+- Coaching centre and local establishment permissions where applicable
+- Private security agency licence
+- Travel agency or tourism-related approvals where applicable
+- Professional registrations issued by relevant statutory bodies
+- Other sector-specific registrations and permits
+
+### G. Agriculture and Environment
+Include:
+- Fertiliser dealer licence
+- Seed dealer licence
+- Pesticide or insecticide dealer licence
+- Environmental consents
+- Groundwater-related permissions where applicable
+- Agricultural trade and processing permissions where applicable
+
+### H. Import, Export and Special Activities
+Include:
+- Import Export Code
+- Customs-related registrations
+- DGFT-related services
+- Wireless and telecom-related permissions where applicable
+- Firearms licence information, subject to applicable laws
+- Other specialised sector-specific permissions
+
+### I. State and Local Government Services
+Support state-specific and municipal services, including:
+- Birth and death certificates where relevant
+- Local trade and commercial permissions
+- State professional registrations
+- Building and occupancy-related approvals
+- State transport services
+- Other state-specific licences and registrations
+
+These are starter categories, not an exhaustive legal catalogue. Make the data model extensible so additional verified licences can be added without redesigning the application.
+
+Do not claim that a category is universally required or available throughout India. Requirements can vary by business activity, location, and current law.
+
+## 5. HOMEPAGE AND USER INTERFACE
+
+Create a polished, premium-quality homepage.
+
+### Navigation bar
+Include:
+- Logo and Licence Holding name
+- Home
+- Explore Licences
+- Categories
+- State-wise Services
+- How It Works
+- Saved Licences
+- Ask AI Assistant
+- Login / Sign Up
+
+Use a responsive mobile navigation menu.
+
+### Hero section
+Headline:
+"Find the Right Licence. Apply with Confidence."
+
+Description:
+"Discover the licences, registrations, documents, fees, eligibility requirements, and official application portals you need — all in one place."
+
+Add a prominent intelligent search bar with the placeholder:
+
+"Search driving licence, FSSAI, trade licence, GST..."
+
+Include:
+- Search button
+- Explore All Licences button
+- Ask AI Assistant button
+
+Under the search field, show popular searches such as Driving Licence, FSSAI Registration, Trade Licence, GST Registration, and Import Export Code.
+
+### Homepage sections
+Build the following sections:
+
+1. Popular Licences
+2. Explore by Category
+3. Licences for Individuals
+4. Licences for Businesses
+5. Licences by State
+6. Recently Updated Government Requirements
+7. How Licence Holding Works
+8. AI Licence Assistant
+9. Frequently Asked Questions
+10. Trust and Information Disclaimer
+11. Footer with contact, privacy, terms, feedback, and official-resource links
+
+Use attractive licence cards with icons, short descriptions, applicant type, jurisdiction, and a "View Requirements" action.
+
+Do not display fabricated review counts, government partnerships, user statistics, success rates, or trust certifications.
+
+## 6. INTELLIGENT LICENCE SEARCH
+
+Implement real, working search.
+
+Users must be able to search using:
+- Licence name
+- Common abbreviation
+- Business type
+- Industry
+- State
+- City or municipality
+- Activity they want to perform
+- A natural-language question
+
+Examples:
+- "I want to open a small restaurant in Karnataka."
+- "How do I get a driving licence?"
+- "What licence does a cloud kitchen need?"
+- "I want to sell fertilisers."
+- "How can I register my small business?"
+- "What permissions are needed to open a factory?"
+
+Search should return relevant licences and registrations with a short explanation of why each result may apply.
+
+Add filters for:
+- Category
+- Individual or business
+- Central, state, or local authority
+- State and location
+- Application or renewal
+- Licence or registration type
+
+Include typo tolerance, relevant synonyms, useful empty states, and suggested searches.
+
+Search results must link to their own licence detail pages.
+
+## 7. DETAILED LICENCE INFORMATION PAGE
+
+Every licence must have a dedicated information page with the following structured fields.
+
+1. Licence or registration name
+2. Common names and abbreviations
+3. Overview
+4. What the licence allows the holder to do
+5. Who needs it
+6. Who may be exempt, where verified
+7. Eligibility criteria
+8. Applicable central, state, or local jurisdiction
+9. Issuing authority
+10. Required documents
+11. Step-by-step application process
+12. Application mode: online, offline, or both
+13. Official application portal
+14. Official department website
+15. Government application fee
+16. Professional or third-party charges, if relevant and clearly distinguished
+17. Expected processing time
+18. Validity period
+19. Renewal requirements
+20. Modification, transfer, and cancellation procedures where applicable
+21. Inspection or verification requirements
+22. Common mistakes and rejection reasons
+23. Relevant legislation or official guidelines
+24. Last verified date
+25. Frequently asked questions
+26. Related licences and registrations
+
+Display information in clear sections, accordions, step cards, document checklists, and status labels.
+
+For unknown or unverified information, show "Not verified — check the official authority" instead of inventing an answer.
+
+Do not invent fees, processing times, eligibility criteria, exemptions, legal provisions, official links, or required documents.
+
+## 8. LICENCE DISCOVERY WIZARD
+
+Build an interactive wizard called "Find the Licences You Need".
+
+Ask one question at a time.
+
+Suggested questions:
+1. Are you applying as an individual, sole proprietor, partnership, company, or another entity?
+2. What activity do you want to perform?
+3. What type of business or profession do you operate?
+4. In which Indian state or union territory?
+5. Which city or municipality?
+6. Is this a new application, renewal, modification, or replacement?
+7. What is your approximate business scale, where relevant?
+8. Do you already have any licences or registrations?
+
+Only ask questions relevant to the selected activity.
+
+Use answers to produce a tailored list of potentially applicable licences and registrations.
+
+For each recommendation, show:
+- Why it may apply
+- Relevant jurisdiction
+- Eligibility conditions to confirm
+- Documents to prepare
+- Official application source
+- Additional details needed to confirm applicability
+
+Clearly distinguish mandatory requirements from conditional, optional, or recommended registrations.
+
+Do not present the results as a definitive legal determination.
+
+## 9. AI LICENCE ASSISTANT
+
+Create an AI assistant named "Licence Mitra".
+
+Purpose: Help users understand licensing requirements in simple language and navigate the licence directory.
+
+The assistant should:
+- Answer questions about Indian licences and registrations.
+- Identify potentially relevant licences based on user circumstances.
+- Explain eligibility in simple English.
+- Explain each application step.
+- Generate personalised document checklists.
+- Explain central versus state and local requirements.
+- Compare similar licences and registration categories.
+- Explain renewal and modification procedures.
+- Help users find official government portals.
+- Ask follow-up questions when jurisdiction or activity is unclear.
+- Summarise relevant official government guidance.
+- Provide clickable citations or source links for factual claims.
+- Recommend related licences when appropriate.
+
+Example conversation:
+
+User: "I want to open a small restaurant in Bengaluru. What do I need?"
+
+Assistant:
+"Several registrations or permissions may be relevant, depending on your business model and premises. Let's narrow this down.
+
+1. Will you operate a dine-in restaurant, takeaway counter, or cloud kitchen?
+2. Will you prepare or sell food directly to customers?
+3. Are you renting a commercial property?
+4. Approximately how large is the business?
+
+Based on your answers, I can help you investigate the applicable FSSAI category, local trade permissions, establishment requirements, fire safety requirements where applicable, and GST obligations where applicable. I will provide official sources for the requirements I can verify."
+
+AI RULES:
+- Never fabricate government information.
+- Never claim that an AI-generated answer is an official legal decision.
+- Distinguish verified facts, general guidance, and uncertain information.
+- Ask clarifying questions when state, city, business activity, or scale changes the answer.
+- Cite authoritative sources for important legal, eligibility, fee, and procedural claims.
+- If current information cannot be verified, explain the limitation and link to the relevant official authority when known.
+- Do not claim to have accessed a live government portal unless that access actually occurred.
+- Do not claim that an application was submitted, approved, or renewed unless a verified integration confirms the result.
+- Do not provide guarantees of approval.
+
+## 10. OFFICIAL GOVERNMENT SOURCE DIRECTORY
+
+Create a source registry containing official government domains and links.
+
+Start with the following known official resources and verify each destination before publishing it:
+
+- National Portal of India: https://www.india.gov.in/
+- National Government Services Portal: https://services.india.gov.in/
+- Parivahan: https://parivahan.gov.in/
+- FSSAI: https://www.fssai.gov.in/
+- FoSCoS: https://foscos.fssai.gov.in/
+- GST Portal: https://www.gst.gov.in/
+- Udyam Registration: https://udyamregistration.gov.in/
+- Ministry of Corporate Affairs: https://www.mca.gov.in/
+- DGFT: https://www.dgft.gov.in/
+- IP India: https://ipindia.gov.in/
+- CBIC: https://www.cbic.gov.in/
+- Ministry of Labour and Employment: https://labour.gov.in/
+- Central Pollution Control Board: https://cpcb.nic.in/
+
+For state and municipal licences, maintain separate official authority links for each supported jurisdiction.
+
+For every source, store:
+- Source name
+- Official URL
+- Department or issuing authority
+- Licence categories supported
+- Applicable jurisdiction
+- Verification status
+- Last checked date
+- Notes on whether the link is informational or an application portal
+
+Never assume a listed department homepage is the direct application portal.
+
+Use official government domains as the preferred sources. Secondary sources can supplement explanations but should not replace authoritative sources for legal requirements.
+
+If a URL is broken, outdated, or cannot be verified, mark it for review rather than silently treating it as valid.
+
+## 11. RELIABLE LICENCE DATA SYSTEM
+
+Build a structured data layer instead of placing all licence information directly inside UI components.
+
+Create a Licence data model containing:
+
+- Unique ID
+- Name
+- Slug
+- Category
+- Aliases
+- Description
+- Applicant types
+- Activities covered
+- Jurisdiction
+- State and municipality
+- Issuing authority
+- Eligibility rules
+- Conditional requirements
+- Document requirements
+- Application steps
+- Government fees
+- Processing estimates
+- Validity and renewal details
+- Official application URL
+- Official information URL
+- Source references
+- Verification status
+- Last verified timestamp
+- Publication status
+
+Support multiple sources for one licence.
+
+Every material legal or procedural fact should be traceable to its source.
+
+Implement data states such as:
+- Verified
+- Needs review
+- Outdated
+- Draft
+- Unavailable
+
+Do not treat AI-generated seed data as verified government data.
+
+Initially, include a useful starter dataset for common licences, with clear source verification status. Make it easy to add additional licences using a database or structured import.
+
+Do not label the catalogue "complete" until its coverage has actually been established.
+
+## 12. STATE-WISE LICENCE EXPLORER
+
+Build a dedicated state and union territory explorer.
+
+Include all Indian states and union territories in the location selector.
+
+Users should be able to select a state and city to see relevant central, state, and municipal licensing information.
+
+Start with Karnataka as the initial demonstration jurisdiction, including Bengaluru where appropriate.
+
+Architect the system to expand to all other states and union territories.
+
+Clearly identify:
+- Central government requirements
+- State government requirements
+- Municipal or local-body requirements
+
+Never assume that a rule applicable in Karnataka also applies in another state.
+
+If location-specific information is unavailable, clearly display the gap and direct users to the relevant official department.
+
+## 13. DOCUMENT CHECKLIST BUILDER
+
+For each licence, let users create a personalised checklist.
+
+Features:
+- Required documents
+- Conditional documents
+- Optional supporting documents
+- Document format and size requirements where officially specified
+- Validity or freshness requirements where applicable
+- Upload or mark-as-ready controls
+- Checklist progress indicator
+- Downloadable checklist as PDF
+- Print-friendly checklist
+- Save progress for signed-in users
+
+Never imply that a document is officially approved merely because a user marks it as ready.
+
+For the first version, support checklist completion without requiring sensitive document uploads.
+
+If document uploads are later implemented, use secure storage, access controls, explicit consent, retention policies, and appropriate encryption. Do not expose identity documents publicly or send them to the AI model unnecessarily.
+
+## 14. APPLICATION ROADMAP
+
+For each licence, show a clear roadmap:
+
+Step 1: Understand eligibility.
+Step 2: Identify the issuing authority.
+Step 3: Prepare documents.
+Step 4: Visit the verified official application portal.
+Step 5: Complete the relevant application.
+Step 6: Pay the official fee directly through the authorised payment process.
+Step 7: Complete verification or inspection if required.
+Step 8: Track the application through the official service, where available.
+Step 9: Obtain the licence or certificate from the issuing authority.
+Step 10: Record renewal deadlines.
+
+Adjust these steps to the actual procedure for each licence.
+
+Include a prominent "Apply on Official Website" link that opens the correct verified application portal.
+
+For external links, identify the destination clearly. Warn users to check the domain before entering personal details or paying fees.
+
+Do not collect government application payments on the platform unless a separately authorised and compliant payment integration has been implemented.
+
+## 15. USER ACCOUNTS AND PERSONAL DASHBOARD
+
+Create optional user accounts.
+
+Dashboard features:
+- Saved licences
+- Recently viewed licences
+- Personal document checklists
+- Saved AI conversations, if the user opts in
+- Application preparation progress
+- Renewal reminders
+- Recently visited official links
+- User preferences and location
+- Account deletion and data export options where supported
+
+Implement authentication using a suitable secure authentication provider, such as Firebase Authentication.
+
+Users must be able to explore public licence information without creating an account.
+
+Do not request Aadhaar numbers, PAN numbers, passwords for government portals, or other sensitive data unless there is a clearly justified, secure, lawful feature requiring it.
+
+## 16. RENEWAL REMINDER SYSTEM
+
+Allow users to manually record:
+- Licence name
+- Issue date
+- Expiry date
+- Renewal lead time
+- Reminder preference
+
+Provide an upcoming-renewal dashboard.
+
+Support browser or email reminders only when the corresponding permission, notification mechanism, and backend integration are actually implemented.
+
+Never invent an expiry date or assume that every licence has a fixed validity period.
+
+Clearly state that reminders are a convenience and that users remain responsible for confirming current deadlines with the issuing authority.
+
+## 17. ADMIN PANEL
+
+Create a protected administrator dashboard for managing licence information.
+
+Admin features:
+- Create and edit licence records
+- Manage categories
+- Manage official sources
+- Add state-specific requirements
+- Update fees and validity details
+- Mark records as verified or requiring review
+- Record the reviewer and verification date
+- Review broken links
+- Manage FAQs
+- Review user-submitted corrections
+- Publish or unpublish records
+- View basic application usage analytics
+- Maintain an audit log of changes
+
+Use role-based access control.
+
+Only authorised administrators may publish or verify records.
+
+Do not allow ordinary users to mark legal information as officially verified.
+
+Create a review workflow so outdated licence information can be flagged and corrected.
+
+## 18. TECHNICAL ARCHITECTURE
+
+Use the framework and runtime supported by Google AI Studio's current application-building environment.
+
+Preferred frontend:
+- React
+- TypeScript
+- Responsive component architecture
+- Tailwind CSS or an equivalent supported styling system
+- Accessible reusable components
+- Client-side routing
+
+Backend:
+- A secure server-side API for AI requests
+- A structured database such as Cloud Firestore, if appropriate
+- Firebase Authentication for optional accounts
+- Secure environment configuration
+- Server-side validation
+- Appropriate security rules
+- Rate limiting for AI endpoints
+
+AI:
+- Integrate the available Gemini model through a supported server-side SDK or API.
+- Keep API keys and other secrets on the server.
+- Never expose privileged API keys in frontend code.
+- Use structured licence records and official source material as the assistant's preferred context.
+- Where supported, implement retrieval-augmented generation (RAG) using verified licence records and authoritative documents.
+- Provide source links with generated answers.
+- Add timeouts, error handling, and sensible token limits.
+- Do not rely on model memory alone for current legal requirements.
+
+Data:
+- Use typed interfaces and validated schemas.
+- Keep licence records separate from presentation code.
+- Use pagination for large catalogues.
+- Add search indexing as needed.
+- Implement database access controls.
+- Provide seed data and migration-friendly structures.
+
+Deployment:
+- Make the application compatible with a supported deployment workflow, such as Firebase App Hosting or another appropriate hosting provider.
+- Document the environment variables and configuration steps.
+- Provide a clear setup and deployment guide.
+- Do not claim that a live backend, authentication provider, database, or deployment is operational until it has been configured and tested.
+
+If a particular service requires credentials, ask for configuration or provide setup instructions. Do not silently substitute a fake integration.
+
+## 19. UI DESIGN SYSTEM
+
+Use a modern SaaS-style interface with a strong Indian public-service identity.
+
+Visual direction:
+- Primary colour: deep navy blue
+- Secondary colour: teal or green
+- Background: clean white and soft grey
+- Accent colour: restrained saffron
+- Rounded cards
+- Subtle shadows
+- Clear typography
+- Consistent spacing
+- Professional line icons
+- Accessible colour contrast
+- Clear loading and error states
+
+Avoid excessive gradients, cluttered layouts, oversized illustrations, or a generic chatbot-only design.
+
+Create a polished desktop, tablet, and mobile experience.
+
+Make the homepage visually engaging, while prioritising information readability and usability.
+
+Use reusable components for:
+- Licence cards
+- Category cards
+- Search filters
+- Document checklists
+- Application step indicators
+- Source citations
+- Jurisdiction badges
+- Verification status
+- Renewal reminders
+- FAQ accordions
+
+Ensure keyboard accessibility, meaningful labels, focus indicators, and responsive layouts.
+
+## 20. SECURITY, PRIVACY AND LEGAL TRANSPARENCY
+
+Build with privacy and security in mind.
+
+Requirements:
+- Follow applicable Indian data protection and privacy requirements.
+- Provide a privacy policy and terms of use.
+- Obtain appropriate consent for personal data processing.
+- Collect only necessary personal information.
+- Use secure authentication and access control.
+- Validate and sanitise user inputs.
+- Protect against common web vulnerabilities.
+- Restrict administrator access.
+- Do not expose personal information in logs.
+- Do not store government portal passwords.
+- Do not impersonate government agencies.
+- Do not guarantee licence approval.
+- Explain that fees, documents, and procedures may change.
+- Include a report-an-error mechanism.
+
+Display a clear disclaimer:
+
+"Licence Holding is an independent information and guidance platform. It is not a government website and is not affiliated with any government authority unless explicitly stated. Requirements, fees, eligibility, and procedures may change. Always confirm the latest requirements with the relevant official authority before applying or making payments."
+
+## 21. SEO AND DISCOVERABILITY
+
+Create search-engine-friendly public pages.
+
+Support:
+- Descriptive licence URLs
+- Page titles and meta descriptions
+- Structured headings
+- Breadcrumb navigation
+- Canonical URLs where appropriate
+- Sitemap generation
+- Robots.txt
+- Social sharing metadata
+- Relevant internal links
+- FAQ sections
+- Structured data only when accurate and appropriate
+
+Example URLs:
+- /licences/driving-licence
+- /licences/fssai-registration
+- /licences/trade-licence
+- /licences/gst-registration
+- /licences/factory-licence
+- /categories/food-business
+- /states/karnataka
+- /states/karnataka/bengaluru
+
+Do not create hundreds of thin, duplicate pages or publish unverified legal content simply to improve SEO.
+
+## 22. CORE USER JOURNEY
+
+Implement this complete flow:
+
+1. User opens Licence Holding.
+2. User searches for a licence or describes an activity.
+3. The system returns relevant categories and licence records.
+4. User selects a licence.
+5. The detail page explains eligibility, documents, authority, fees, and procedure.
+6. User selects their state and local jurisdiction where needed.
+7. The AI assistant answers follow-up questions using available verified sources.
+8. User creates a personalised document checklist.
+9. User follows the application roadmap.
+10. User opens the verified official application portal.
+11. User can save the licence and record renewal details.
+12. User can report outdated information or an incorrect link.
+
+The application should remain useful even when AI is temporarily unavailable because core licence information and search must work independently.
+
+## 23. TESTING AND ACCEPTANCE CRITERIA
+
+Before declaring the app complete, verify the following:
+
+- The homepage renders correctly.
+- Navigation links work.
+- Search returns appropriate results.
+- Search filters work.
+- Licence detail pages load correctly.
+- State selection changes the relevant results.
+- The discovery wizard preserves answers and produces relevant recommendations.
+- The AI assistant handles errors and uncertainty.
+- Answers provide source links when available.
+- The checklist can be updated and reset.
+- Saved licences persist for the intended user.
+- Authentication and access controls are enforced when enabled.
+- The administrator interface is protected.
+- Official links are checked and clearly labelled.
+- No fake application submission or payment success is displayed.
+- Unknown fees and requirements are not fabricated.
+- Layouts work on mobile and desktop.
+- Loading, empty, offline, and error states are handled.
+- Sensitive information is not unnecessarily collected or exposed.
+- Production builds do not contain privileged API keys.
+
+Add automated tests where supported and provide a manual testing checklist.
+
+## 24. IMPLEMENTATION PRIORITIES
+
+Build the application in phases, while delivering a usable end-to-end first version.
+
+Phase 1 — Core application:
+- Responsive homepage
+- Navigation and category pages
+- Searchable licence directory
+- Detailed licence pages
+- Official source directory
+- Basic state selector
+- Functional application checklists
+- AI licence assistant
+- Starter data with explicit verification status
+
+Phase 2 — Personalisation:
+- User authentication
+- Saved licences
+- Persistent checklists
+- Renewal reminders
+- Improved location-specific recommendations
+
+Phase 3 — Administration and scale:
+- Admin dashboard
+- Licence review workflow
+- Structured database
+- Broader state coverage
+- Link monitoring
+- Analytics and automated testing
+
+Phase 4 — Advanced features:
+- Retrieval-augmented generation
+- Additional Indian languages
+- Document extraction where justified and securely implemented
+- Notifications and additional verified integrations
+
+Do not postpone the working core application in order to build every advanced feature at once.
+
+## 25. FINAL BUILD INSTRUCTIONS
+
+Start building the actual application immediately.
+
+First inspect the available project environment and use its supported framework and integrations.
+
+Then:
+1. Create the project structure.
+2. Build the responsive application shell and navigation.
+3. Implement the homepage and licence categories.
+4. Create the structured licence data model and starter records.
+5. Implement search, filters, and detail pages.
+6. Implement the discovery wizard.
+7. Connect the Gemini-powered assistant securely.
+8. Add source attribution and official application links.
+9. Implement document checklists.
+10. Add optional authentication and persistence when configured.
+11. Test the main user journeys.
+12. Fix errors and provide the setup and deployment instructions.
+
+Use realistic, well-structured sample records, but explicitly distinguish sample data from verified information.
+
+Prioritise functional behaviour, source reliability, accessibility, and a polished user experience over decorative features.
+
+Do not stop after producing a plan or a landing page. Implement as much of the working application as the current environment permits, and clearly identify any remaining configuration or integration steps.
+
+The finished product should feel like a trustworthy, intelligent, comprehensive Indian licence discovery and application-preparation platform.
+
+**Product name: Licence Holding.**
+**Primary promise: Every Licence. One Platform.**
+**Primary action: Find the Licence You Need.**
